@@ -38,7 +38,7 @@ The concern label follows one rule: strong, shallow quakes close to big populati
 - **TopoJSON** for the country borders
 - Plain HTML, CSS and JavaScript, hosted on GitHub Pages
 
-I built this with help from Claude (Anthropic's AI) for the code, while I focused on the analysis design and what the map should show.
+I designed the project and the exposure analysis: the data sources, the 50/100/250 km buffer rings, the spatial join and the concern rule. I used Claude Opus 5.5 for two parts of the build: assisting in writing the front-end code and processing the raw datasets into a format the map could load.
 
 ## Limitations
 
